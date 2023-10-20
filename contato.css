@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #101113;
+    background-image: url(/galeria/gato-de-bengala-dourado-na-parede-preta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+li{
+    list-style: none;
+    height: 20px;
+    width: 200px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+a:hover{
+    color: rgb(208, 255, 0);
+}
+/* CABECALHO */
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+.navbar ul{
+    width: 100%;
+    text-align: center;
+    }
+.navbar{
+width: 100%;
+height: 100px;
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+#hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.navbar .links {
+    display: flex;
+    gap: 14rem;
+}
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+section#hero{
+    height: calc(100vh - 800px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+#info h1{
+    color: #fff;
+    font-size: 5rem;
+    padding-top: 850px;
+    text-align: center;
+}
+.eu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16rem;
+  }
+  .eu{
+    display: flex;
+    gap: 10px;
+  }
+  .eu div{
+    color: #fff;
+    min-height: 100px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .eu p{
+    margin: 10px;
+    text-align: center;
+  }
+  .eu h1{
+    font-size: 1.5rem;
+  }
+  .eu h2{
+    font-size: 2.5rem;
+    
+  }
+  .eu img{
+    width: 125px;
+  }
+#gmail{
+    background-color:rgba(154, 154, 240, 0.219) ;
+}
+#linkedin {
+    background-color: rgba(154, 154, 240, 0.219);
+}
+#github {
+    background-color: rgba(154, 154, 240, 0.219);
+}
+#instagram {
+    background-color: rgba(154, 154, 240, 0.219);
+}
+#whatsapp {
+    background-color: rgba(154, 154, 240, 0.219);
+}
+#gmail  h2 {
+    color: red ;
+}
+#linkedin h2 {
+    color: blue ;
+}
+#github  h2{
+    color: black;
+}
+#instagram h2 {
+    color: purple ;
+}
+#whatsapp h2 {
+    color: green;
+}
+#real h3{
+    font-size: 3rem;
+}
+#real p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+#real{
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+}
